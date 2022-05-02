@@ -28,8 +28,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := lavender_defconfig
-BOARD_KERNEL_SEPARATED_DTBO := true
+TARGET_KERNEL_CONFIG := lavender-perf_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
