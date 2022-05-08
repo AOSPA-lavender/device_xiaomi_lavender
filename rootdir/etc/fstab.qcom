@@ -23,4 +23,4 @@
 /devices/soc/c084000.sdhci/mmc_host*                     auto                 auto    nosuid,nodev                                                                                    wait,voldmanaged=sdcard1:auto,encryptable=userdata
 /dev/block/bootdevice/by-name/vendor                     /vendor              ext4    ro,barrier=1                                                                                    wait,recoveryonly
 /dev/block/bootdevice/by-name/boot                       /boot                emmc    defaults				                                                                                    defaults
-/dev/block/zram0                                         none                 swap    defaults                                         zramsize=2147483648,max_comp_streams=8
+/dev/block/zram0                                         none                 swap    defaults                                         zramsize=50%
