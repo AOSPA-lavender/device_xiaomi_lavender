@@ -12,4 +12,4 @@ export DEVICE=lavender
 export DEVICE_COMMON=sdm660-common
 export VENDOR=xiaomi
 
-"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
+"./../../../${VENDOR}/${DEVICE_COMMON}/utils/setup-makefiles.sh" "$@"
